@@ -5,7 +5,7 @@ const sizes = getSizes()
 document.addEventListener(
     "change",
     (event) => {
-        if (event.target.name === "caret") {
+        if (event.target.name === "size") {
             setSize(parseInt(event.target.value))
         }
     }
